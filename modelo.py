@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
 
 X = np.array([
-    [180, 7.5], [200, 8.0], [170, 7.0],   # Manzana 🍎
-    [120, 6.0], [130, 6.5], [110, 5.5],   # Naranja 🍊
-    [90, 4.5], [100, 5.0], [80, 4.0]      # Plátano 🍌
+    [180, 7.5], [200, 8.0], [170, 7.0],
+    [120, 6.0], [130, 6.5], [110, 5.5],
+    [90, 4.5], [100, 5.0], [80, 4.0]
 ])
 
 y = np.array([0, 0, 0, 1, 1, 1, 2, 2, 2])
