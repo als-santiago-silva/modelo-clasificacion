@@ -38,7 +38,6 @@ plt.ylabel("Diámetro (cm)", fontsize=12)
 plt.title("Clasificación de Frutas con KNN", fontsize=14, fontweight='bold')
 plt.legend(fontsize=10)
 
-plt.show()
-
 print(f"La fruta clasificada es: {frutas[prediccion[0]]}")
 
+plt.show()
