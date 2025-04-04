@@ -11,14 +11,28 @@ En este caso, contamos con datos de 3 tipos de frutas (Manzana, Naranja y Banana
 Puedes cambiar el valor de `k` fácilmente si deseas ajustar la sensibilidad de la clasificación.
 
 # ¿Cómo usarlo?
- 
-1. Clona el repositorio
-2. Instala las dependencias ejecutando el siguiente comando en la terminal "pip install -r requirements.txt"
-3. Define la fruta que quieres clasificar indicando su peso y diámetro en "nueva_fruta"
-4. Corre el script y en la terminal se verá la fruta correspondiente seguido de un grafico indicando con mas detalle la comparación
 
-# Librerias utilizadas
+1. Clona el repositorio.
+2. Instala las dependencias ejecutando el siguiente comando en la terminal:
 
--numpy (operaciones numéricas)
--matplotlib (generacion de graficos)
--sklearn.neighbors (Algoritmo KNN de scikit-learn)
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Define la fruta que quieres clasificar indicando su peso y diámetro en la variable `nueva_fruta`, por ejemplo:
+
+    ```python
+    nueva_fruta = np.array([[165, 6.8]])
+    ```
+
+4. Corre el script.  
+   En la terminal verás el nombre de la fruta clasificada, seguido de un gráfico 2D mostrando las regiones de clasificación.
+
+---
+
+# Librerías utilizadas
+
+```python
+numpy         # Para manipulación de datos numéricos
+matplotlib    # Para generación de gráficos
+scikit-learn  # Para el modelo KNN
